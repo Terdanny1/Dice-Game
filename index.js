@@ -12,3 +12,4 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1 //creates random number be
 
 var randomImageSource2 = "images/dice" + randomNumber2 +  ".png"
 
+document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2)
